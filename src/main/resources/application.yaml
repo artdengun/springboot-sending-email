@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: spring-sending-email
+  datasource:
+    url: jdbc:postgresql://localhost:5432/pg_email
+    username: admin_email
+    password: admin_email
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true
