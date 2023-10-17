@@ -26,8 +26,8 @@ public class AppProperties {
 
     /*EMAIL*/
     private String emailHost                            = "smtp.gmail.com";
-    private String emailUsername                        = "deniworkarea775@gmail.com";
-    private String emailPassword                        = "Kalabatj!20";
+    private String emailUsername                        = "";
+    private String emailPassword                        = "";
     private String emailTransportProtocol               = "mail.transport.protocol";
     private String emailSmtpAuth                        = "mail.smtp.auth";
     private String emailStartTlsEnable                  = "mail.smtp.starttls.enable";
